@@ -19,10 +19,12 @@ h5
 ul 
 {
     text-align: center;
+    display: table;
+    margin:0 auto;
 }
 li
 {
-    text-align: center;
+    text-align: left;
 }
 img
 {
