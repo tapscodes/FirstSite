@@ -8,6 +8,8 @@ Sets extra attributes so that the site looks nicer
 body
 {
     text-align: center;
+    text-emphasis-color: white;
+    background-color: black;
 }
 h1
 {
