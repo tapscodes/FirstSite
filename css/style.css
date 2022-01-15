@@ -8,7 +8,9 @@ Sets extra attributes so that the site looks nicer
 body
 {
     text-align: center;
+    color: white;
     text-emphasis-color: white;
+    text-decoration-color: red;
     background-color: black;
 }
 h1
