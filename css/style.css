@@ -1,20 +1,21 @@
 @charset "UTF-8";
 
-/*!
+/*
 Tristan's Website CSS Styling
 Sets extra attributes so that the site looks nicer
 */
-
-body
+body /* attributes applied to all text (other things like this apply to those things)*/
 {
     text-align: center;
     color: white;
     text-emphasis-color: white;
     text-decoration-color: red;
     background-color: black;
+    
 }
-h1
+h1 
 {
+    color: orange;
     text-align: center;
 }
 h5
@@ -24,6 +25,7 @@ h5
 ul 
 {
     text-align: center;
+    /* code below helps center the list elements */
     display: table;
     margin:0 auto;
 }
@@ -34,4 +36,16 @@ li
 img
 {
     text-align: center;
+}
+a{ /*for a hrefs (aka links)*/
+    color: limegreen;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color: lightblue;
+}
+a:visited{
+    color:blueviolet;
 }
