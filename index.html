@@ -1,6 +1,7 @@
 <!--
 Welcome to the source code for my website! 
-Most of the comments found here mean very little as they're meant to remind me about the basics of HTML5.
+Most of the comments found here mean very little as they're meant to remind me about the basics of HTML5
+rather than actually give any meaningful insight unlike my other projects.
 Navigational points will be marked in the comment with 
 "NAV:" so they can easily be found.
 "TOADD: if it's something I plan on adding eventually"
@@ -17,26 +18,107 @@ I also need to add navigation to the left side of the page.
     </head>
     <!--NAV: Actual Site Info-->
     <body>
+        <!--NAV: Taskbar-->
+        <!--TODO: implement vertical taskbar-->
+        <ul>
+            <li><a href="#index">Contact Info</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#awards">Awards</a></li>
+        </ul>
+
+        <!--NAV: General/Important Info-->
         <img src = "assets/img/profile.jpg">
-        <h1>Tristan Pudell-Spatscheck</h1>
-        <h5>1701 Student Life Way, Salt Lake City, UT 84112</h5>
-        <a href = "https://github.com/TristanP-S"><img src = "assets/img/github.png"></a>
+        <h1 id = "index">Tristan Pudell-Spatscheck</h1>
+        <h5>Salt Lake City, UT 84112</h5>
+        <a href = "https://github.com/tapscodes"><img src = "assets/img/github.png"></a>
         <a href = "https://www.linkedin.com/in/taps/"><img src = "assets/img/linkedin.png"> </a>
         <h5><a href = "tel:9738640773">(973)-864-0773</a>, <!--"tel" attempts to launch a telephone app TOADD:Remove link on desktop clients-->
-            <a href = "mailto:contact@tristan-alexander.com" target="_blank">contact@tristan-alexander.com</a></5> <!--Target=_blank opens new tab, mailto opens mail-->
+            <a href = "mailto:business@tristan-alexander.com" target="_blank">business@tristan-alexander.com</a></5> <!--Target=_blank opens new tab, mailto opens mail-->
         <h5><a href = "assets/pdfs/Resume.pdf">Click Here To Download My Resume</a></h5>
         <p>
-            Welcome to my website! For any non-contact information, please click any of the links below.<br>
+            Welcome to my website! Any relevant contact information can be found above this text, everything else is below.<br>
             This website was built from the ground up without the use of any templates for the sake of learning html.
         </p>
 
+        <!--NAV: Education-->
+        
+        <h1 id = "education">Education</h1>
+        <!--College Major/Undergraduate-->
+        <h3>University of Utah</h3>
+        <p>Bachelor of Computer Science: August 2020 - Present</p>
+        <p>EAE/Games Minor: August 2020 - Present</p>
+        <!--Udacity iOS Nanodegree-->
+        <h3>Udacity.com iOS Nanodegree Program</h3>
+        <p>iOS Developer Nanodegree: August 2018-June 2019</p>
+        <!--High School-->
+        <h3>Randolph High School</h3>
+        <p>Highschool Diploma: August 2016-June 2020</p>
+        
+    <!--Nav: Skills-->
+
+        <h1 id = "skills">Skills</h1>
+        <h2> Coding Languages </h2>
         <ul>
-            <li><a href="index.html">Contact Info</a></li>
-            <li><a href="experience.html">Work Experience</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="interests.html">Interests</a></li>
-            <li><a href="awards.html">Awards</a></li>
+            <li>Java</li>
+            <li>HTML/CSS</li>
+            <li>C#</li>
         </ul>
+        <h2>Coursework</h2>
+        <ul>
+            <h3>Completed</h3>
+            <li>Object-Oriented Programming</li>
+            <li>Data Strctures & Algorithms</li>
+            <li>Discrete Mathmatics</li>
+            <li>Computer Organization</li>
+            <li>Software Practice</li>
+            <h3>In Progress</h3>
+            <li></li>
+            <li>Software Practice 2</li>
+            <li>Models of Computation</li>
+            <li>Survey of Games</li>
+            <li>Digital Content Creation</li>
+        </ul>
+        <h2>Useful Tools/Software</h2>
+        <ul>
+            <li>Git</li>
+            <li>iOS Development/Xcode</li>
+            <li>VSCode</li>
+            <li>Visual Studio 2022</li>
+        </ul>
+
+        <!--NAV: Awards-->
+
+        <h1 id = "awards">Awards</h1>
+        <h2>2020</h2>
+        <ul>
+            <li>Highschool Diploma from Randolph High School</li>
+            <li>Randolph High School's Computer Club Award</li>
+            <li>Randolph High School's Robotics Club Award</li>
+        </ul>
+        <h2>2019</h2>
+        <ul>
+            <li>Udacity iOS Developer Nanodegree</li>
+            <li>Randolph High School's Computer Club Award</li>
+        </ul>
+
+        <!--NAV: Interests-->
+
+        <h1 id = "interests">Interests</h1>
+        <p>
+            I personally enjoy watching basketball and skiing at a very casual level.<br>
+            For my code-based interests, I really enjoy learning about the inner workings<br>
+            of game/software development and I love seeing AI doing crazy things.
+        </p>
+
+        <!--NAV: Experience-->
+
+        <h1 id = "experience">Work Experience</h1>
+        <p>
+            The only exprience I have is simple contract work online,<br>
+            but I'm always looking for opportunities to code.
+        </p>
     </body>
 </html>

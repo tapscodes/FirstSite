@@ -4,13 +4,18 @@
 Tristan's Website CSS Styling
 Sets extra attributes so that the site looks nicer
 */
+html 
+{
+    scroll-behavior: smooth;
+}
+
 body /* attributes applied to all text (other things like this apply to those things)*/
 {
     text-align: center;
-    color: white;
-    text-emphasis-color: white;
+    color: black;
+    text-emphasis-color: black;
     text-decoration-color: red;
-    background-color: black;
+    background-color: white;
     
 }
 h1 
