@@ -4,6 +4,8 @@
 Tristan's Website CSS Styling
 Sets extra attributes so that the site looks nicer
 */
+
+/*NAV: basic HTML*/
 html 
 {
     scroll-behavior: smooth;
@@ -49,8 +51,41 @@ a:hover{
     color:red;
 }
 a:active{
-    color: lightblue;
+    color: blue;
 }
 a:visited{
-    color:blueviolet;
+    color:limegreen;
+}
+
+/*NAV: nav bar*/
+
+#vertical_nav_bar /*type UL*/
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: rgb(219, 219, 219);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#vertical_nav_item
+{
+    display: flex;
+}
+
+#vertical_nav_item a
+{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#vertical_nav_item a:hover
+{
+  background-color: (219, 219, 219);
+  color: white;
 }

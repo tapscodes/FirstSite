@@ -13,35 +13,41 @@ I also need to add navigation to the left side of the page.
     <head>
         <meta charset = "utf-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1"> <!--This makes the width the device width, initial-scale is the 'zoom' value-->
+        <meta name = "description" content =
+         "Tristan Pudell-Spatscheck's Personal Website!">
         <title>Tristan's Website</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <!--NAV: Actual Site Info-->
     <body>
         <!--NAV: Taskbar-->
-        <!--TODO: implement vertical taskbar-->
-        <ul>
-            <li><a href="#index">Contact Info</a></li>
-            <li><a href="#experience">Work Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#interests">Interests</a></li>
-            <li><a href="#awards">Awards</a></li>
+        <ul id = "vertical_nav_bar">
+            <li id = "vertical_nav_item">Tristan Pudell-Spatscheck</li>
+            <img src = "assets/img/profile.jpg">
+            <li id = "vertical_nav_item"><a href="#index">Home</a></li>
+            <li id = "vertical_nav_item"><a href="#experience">Work Experience</a></li>
+            <li id = "vertical_nav_item"><a href="#education">Education</a></li>
+            <li id = "vertical_nav_item"><a href="#skills">Skills</a></li>
+            <li id = "vertical_nav_item"><a href="#interests">Interests</a></li>
+            <li id = "vertical_nav_item"><a href="#awards">Awards</a></li>
+            <a href = "https://github.com/tapscodes"><img src = "assets/img/github.png" width = "32" height = "32"></a>
+            <a href = "https://www.linkedin.com/in/taps/"><img src = "assets/img/linkedin.png" width = "32" height = "32"></a>
+            <h5>
+                <a href = "tel:4023822395">(402)-382-2395</a>, <!--"tel" attempts to launch a telephone app TOADD:Remove link on desktop clients-->
+                <a href = "mailto:business@tristan-alexander.com" target="_blank">business@tristan-alexander.com</a> <!--Target=_blank opens new tab, mailto opens mail-->
+            </h5>
         </ul>
 
         <!--NAV: General/Important Info-->
-        <img src = "assets/img/profile.jpg">
-        <h1 id = "index">Tristan Pudell-Spatscheck</h1>
-        <h5>Salt Lake City, UT 84112</h5>
-        <a href = "https://github.com/tapscodes"><img src = "assets/img/github.png"></a>
-        <a href = "https://www.linkedin.com/in/taps/"><img src = "assets/img/linkedin.png"> </a>
-        <h5><a href = "tel:9738640773">(973)-864-0773</a>, <!--"tel" attempts to launch a telephone app TOADD:Remove link on desktop clients-->
-            <a href = "mailto:business@tristan-alexander.com" target="_blank">business@tristan-alexander.com</a></5> <!--Target=_blank opens new tab, mailto opens mail-->
-        <h5><a href = "assets/pdfs/Resume.pdf">Click Here To Download My Resume</a></h5>
+        
+        <h1 id = "index">Welcome!</h1>
         <p>
             Welcome to my website! Any relevant contact information can be found above this text, everything else is below.<br>
             This website was built from the ground up without the use of any templates for the sake of learning html.
         </p>
+
+        <h2><a href = "assets/pdfs/Resume.pdf">Click Here To Download My Resume</a></h2>
 
         <!--NAV: Education-->
         
