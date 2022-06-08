@@ -17,7 +17,7 @@ body /* attributes applied to all text (other things like this apply to those th
     color: black;
     text-emphasis-color: black;
     text-decoration-color: red;
-    background-color: white;
+    background-color: rgb(210, 210, 210);
     
 }
 h1 
@@ -67,7 +67,7 @@ a:visited{
   margin: 0;
   padding: 0;
   width: 10%;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(190, 190, 190);
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -88,6 +88,5 @@ a:visited{
 
 #vertical_nav_item a:hover
 {
-  background-color: (219, 219, 219);
   color: white;
 }
