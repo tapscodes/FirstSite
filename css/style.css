@@ -23,15 +23,17 @@ body /* attributes applied to all text (other things like this apply to those th
 h1 
 {
     color: orange;
-    text-align: center;
 }
-h5
+h2
 {
-    text-align: center;
+    color: orangered;
+}
+h3
+{
+    color: rgb(100, 100, 240);
 }
 ul 
 {
-    text-align: center;
     /* code below helps center the list elements */
     display: table;
     margin:0 auto;
@@ -71,7 +73,7 @@ a:visited{
   overflow: auto;
 }
 
-#vertical_nav_item
+#vertical_nav_item /*type IL*/
 {
     display: flex;
 }
