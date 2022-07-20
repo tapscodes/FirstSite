@@ -15,9 +15,9 @@ function MenuToggle(){
 
 //resets the menu's display if the window size is changed
 function ResetMenu(){
-    if (window.innerWidth >= 900)
+    if (document.getElementById("nav_bar_ul").style.display != "flex" && window.innerWidth >= 900)
         document.getElementById("nav_bar_ul").style.display = "flex";
-    else
+    else if (document.getElementById("nav_bar_ul").style.display = "block" && window.innerWidth < 900)
     document.getElementById("nav_bar_ul").style.display = "block";
 }
     
