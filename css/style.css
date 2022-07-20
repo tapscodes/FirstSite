@@ -61,12 +61,15 @@ a:visited{
 
 /*NAV: nav bar*/
 
+/*TODO: figure out a way to make the text centered vertically in desktop mode*/
 #nav_bar{ /*main nav bar, need to turn this vertically*/
     display: block;
     position: sticky;
     top: 0em;
     left: 0em;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(184, 184, 184);
 }
 
@@ -103,13 +106,13 @@ a:visited{
 }
 
 #nav_bar img{
-    align-self: center;
     width: 8em;
     height: 8em;
 }
 
-#nav_bar h5{
+#nav_bar a{  
     font-size: 1em;
+    color:rgb(0, 40, 120);
 }
 
 #nav_toggle{ /*nav toggle button*/
