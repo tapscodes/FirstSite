@@ -12,10 +12,6 @@
     display: inline-flex;
 }
 
-#nav_bar li a{
-    color: blue;
-}
-
 #nav_toggle{
     display: none;
 }
