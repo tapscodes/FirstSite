@@ -1,0 +1,21 @@
+/* Things that need to change for desktop users*/
+#nav_bar{
+    display: flex;
+}
+
+#nav_bar_ul{
+    display: flex;
+}
+
+#nav_bar li{
+    height: 80px;
+    display: inline-flex;
+}
+
+#nav_bar li a{
+    color: blue;
+}
+
+#nav_toggle{
+    display: none;
+}

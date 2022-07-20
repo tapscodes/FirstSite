@@ -17,14 +17,15 @@ Navigational points will be marked in the comment with
         <title>Tristan's Website</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media = "screen and (min-width: 900px)" href = "css/desktop_navbar.css"> <!--Only loads this css file when the width is greater than 900px-->
         <script src="js/mobile_task.js"></script>
     </head>
     <!--NAV: Actual Site Info-->
     <body>
         <!--NAV: Taskbar-->
         <nav id = "nav_bar">
-            <ul>
-                <a href="#" id = "nav_toggle"><i>menu</i></a> <!--toggle button for the menu-->
+            <a href="#" id = "nav_toggle"><i>menu</i></a> <!--toggle button for the menu-->
+            <ul id = "nav_bar_ul">
                 <img src = "assets/img/profile.jpg">
                 <li>Tristan Pudell-Spatscheck</li>
                 <li><a href="#index">Home</a></li>

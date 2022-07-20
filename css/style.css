@@ -18,19 +18,22 @@ body /* attributes applied to all text (other things like this apply to those th
     text-emphasis-color: black;
     text-decoration-color: red;
     background-color: rgb(210, 210, 210);
-    font-size: 16px;
+    font-size: 10px;
 }
 h1 
 {
     color: orange;
+    font-size: 2em;
 }
 h2
 {
     color: orangered;
+    font-size: 1.8em;
 }
 h3
 {
     color: rgb(100, 100, 240);
+    font-size: 1.5em;
 }
 ul 
 {
@@ -41,10 +44,7 @@ ul
 li
 {
     text-align: left;
-}
-img
-{
-    text-align: center;
+    font-size: 1em;
 }
 a{ /*for a hrefs (aka links)*/
     color: limegreen;
@@ -62,7 +62,8 @@ a:visited{
 /*NAV: nav bar*/
 
 #nav_bar{ /*main nav bar, need to turn this vertically*/
-    position: relative;
+    display: block;
+    position: sticky;
     top: 0em;
     left: 0em;
     width: 100%;
@@ -70,6 +71,12 @@ a:visited{
 }
 
 #nav_bar ul{
+    list-style-type: none;
+}
+ 
+/* made this version an ID to use with javascript as a tempfix, TODO; figure out how to call ul above later*/
+#nav_bar_ul{
+    display: block;
     list-style-type: none;
 }
 
@@ -84,7 +91,7 @@ a:visited{
     height: 100%;
     text-align: center;
     text-decoration: none;
-    font-size: 1.5em; /*em bases size off the body's font size*/
+    font-size: 1.2em; /*em bases size off the body's font size*/
     color: black;
     background-color: rgb(158, 158, 158);
     padding-top: 0em;
@@ -96,6 +103,7 @@ a:visited{
 }
 
 #nav_bar img{
+    align-self: center;
     width: 8em;
     height: 8em;
 }
