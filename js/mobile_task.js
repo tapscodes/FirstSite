@@ -17,7 +17,7 @@ function MenuToggle(){
 function ResetMenu(){
     if (document.getElementById("nav_bar_ul").style.display != "flex" && window.innerWidth >= 900)
         document.getElementById("nav_bar_ul").style.display = "flex";
-    else if (document.getElementById("nav_bar_ul").style.display = "block" && window.innerWidth < 900)
+    else if (!(document.getElementById("nav_bar_ul").style.display == "block" || document.getElementById("nav_bar_ul").style.display == "none") && window.innerWidth < 900)
     document.getElementById("nav_bar_ul").style.display = "block";
 }
     
